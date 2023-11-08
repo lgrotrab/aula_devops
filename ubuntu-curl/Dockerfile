@@ -1,4 +1,2 @@
 FROM ubuntu
-RUN apt update
-RUN apt install net-tools --yes
-RUN apt install curl --yes
+RUN apt update && apt install net-tools --yes && apt install curl --yes

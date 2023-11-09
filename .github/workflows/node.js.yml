@@ -20,3 +20,11 @@ jobs:
       uses: actions/setup-node@v4.0.0
       with:
         node-version: 16.13.2
+
+    - name: instalação do Mocha e dos pacotes para test
+    - run:
+          cd conversao-temperatura-2-main;
+          cd src;
+          npm install -g mocha;
+          npm install
+          

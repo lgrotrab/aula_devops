@@ -16,6 +16,7 @@ jobs:
     
     steps:
     - uses: actions/checkout@v3
+    
     - name: Setup do NodeJS
       uses: actions/setup-node@v4.0.0
       with:
@@ -26,5 +27,5 @@ jobs:
           cd conversao-temperatura-2-main;
           cd src;
           npm install -g mocha;
-          npm install
+          npm install;
           

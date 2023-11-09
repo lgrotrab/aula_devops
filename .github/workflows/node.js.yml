@@ -49,5 +49,5 @@ jobs:
         dockerfile: conversao-temperatura-2-main/src/Dockerfile
         push: true
         tags:
-          ${{secrets.DOCKERHUB_USERNAME}}/aula-conversao-temperatura:v1
-          ${{secrets.DOCKERHUB_USERNAME}}/aula-conversao-temperatura:latest
+          luisgustavooliveira/aula-conversao-temperatura:v1
+          luisgustavooliveira/aula-conversao-temperatura:latest

@@ -49,5 +49,5 @@ jobs:
         dockerfile: conversao-temperatura-2-main/src/Dockerfile
         push: true
         tags: |
-          luisgustavooliveira/aula-conversao-temperatura:${{gihub.run_number}}
+          luisgustavooliveira/aula-conversao-temperatura:${{github.run_number}}
           luisgustavooliveira/aula-conversao-temperatura:latest

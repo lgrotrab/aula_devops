@@ -23,7 +23,7 @@ jobs:
         node-version: 16.13.2
 
     - name: instalação do Mocha e dos pacotes para test
-    - run:
+      run:
           cd conversao-temperatura-2-main;
           cd src;
           npm install -g mocha;
